@@ -1,0 +1,2 @@
+The .lua files return lua tables for each plugin
+Lazy concatenates all of these tables to form the configuration
