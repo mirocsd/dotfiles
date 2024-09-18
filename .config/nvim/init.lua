@@ -18,3 +18,7 @@ local opts = {}
 -- vim-opts in vim-opts.lua
 require("vim-opts")
 require("lazy").setup("plugins", opts)
+
+
+-- Set relative line numbering
+vim.wo.relativenumber = true;
