@@ -1,0 +1,4 @@
+URxvt.geometry: 400x400
+URxvt*font: xft:Verily Serif Mono:Regular:size=12,xft:JetBrainsMono NFM
+URxvt.letterSpace: -1
+URxvt*scrollBar: False

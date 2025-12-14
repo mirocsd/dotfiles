@@ -1,0 +1,8 @@
+Adding plugins:
+
+i) Create a file in lua/ named plugin.lua
+ii) Return the tuple for the plugin
+iii) Add configurations by creating a function, part of the return tuple (Lazy runs this when loading the plugin):
+    config = function()
+      [function]
+    end

@@ -1,0 +1,32 @@
+@theme "wpg"
+configuration {
+modi: "window,drun,ssh,combi";
+combi-modi: "window,drun,ssh";	 
+width:			40;
+lines:			8;
+columns:		2;
+font:			"source code pro 14";
+color-normal:		#09152D; // #ffffe9, #09152D, #cbcb5f, #ffffe9
+color-urgent:		#09152D; // #d6b48d, #22231D, #d6b48d, #ffffe9 
+color-active:		#09152D; // #3b7ef8, #09152D, #3b7ef8, #09152D 
+color-window:		argb:cc09152D;// argb:cccbcb5f, argb:cc8c8c41 
+bw:			 0; 
+location:		 0; 
+padding:			350; 
+line-padding:		10; 
+fixed-num-lines:		true; 
+terminal:			"rofi-sensible-terminal"; 
+ssh-client:		"ssh";
+ssh-command:		"{terminal} -e {ssh-client} {host}"; 
+run-command:                    "{cmd}"; 
+parse-hosts:                    true; 
+matching:                       "normal"; 
+separator-style:                "dash"; 
+hide-scrollbar:                 "true"; 
+scrollbar-width:               "0"; 
+kb-mode-next:                   "Shift+Right,Control+Tab,Alt+l"; 
+kb-mode-previous:               "Shift+Left,Control+Shift+Tab,Alt+h";
+kb-row-up:                      "Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k"; 
+kb-row-down:                    "Down,Control+n,Alt+j";
+fullscreen:                    "true";
+}

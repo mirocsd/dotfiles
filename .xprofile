@@ -1,0 +1,5 @@
+if [ -f "$userresources" ]; then
+  xrdb -merge "$userresources"
+fi
+
+/bin/sh ~/.screenlayout/layout.sh &

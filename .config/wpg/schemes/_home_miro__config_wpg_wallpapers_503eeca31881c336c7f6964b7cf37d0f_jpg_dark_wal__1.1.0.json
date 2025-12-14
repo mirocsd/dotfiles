@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/miro/.config/wpg/wallpapers/503eeca31881c336c7f6964b7cf37d0f.jpg",
+    "alpha": "70",
+
+    "special": {
+        "background": "#304316",
+        "foreground": "#fffffc",
+        "cursor": "#fffffc"
+    },
+    "colors": {
+        "color0": "#304316",
+        "color1": "#D3D5D1",
+        "color2": "#C8D5B2",
+        "color3": "#B6C99D",
+        "color4": "#DCE3D4",
+        "color5": "#BDC0C2",
+        "color6": "#A7AEA1",
+        "color7": "#e8eae5",
+        "color8": "#4b6822",
+        "color9": "#ffffe3",
+        "color10": "#ffffce",
+        "color11": "#efffb4",
+        "color12": "#ffffdc",
+        "color13": "#dcfeff",
+        "color14": "#d7f7bb",
+        "color15": "#fffffc"
+    }
+}
